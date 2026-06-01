@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+	font-family:  "メイリオ","游ゴシック", sans-serif;
+}
+
+div.navbar-header {
+	width: 20%;
+	text-align: center;
+	letter-spacing: 0.15em;
+	background-color: #000;
+	opacity: 0.9;
+	margin: 0 auto 10px auto;
+	padding: 15px 0;
+	float: left;
+}
+
+a.navbar-brand {
+	color: #c8fac8;
+	text-decoration: none;
+}
+
+div#navbar{
+	width: 80%;
+	list-style-type: none;
+	text-align: left;
+	background-color: #000;
+	opacity: 0.9;
+	margin: 0 auto 10px auto;
+	padding: 15px 0;
+	float: left;
+	clear: right;
+}
+
+ol{
+	margin :0;
+	padding: 0;
+}
+
+ol,li{
+	width: 30%;
+	display: inline;
+	margin-right: 1em;
+}
+ol.navbar-nav li a{
+	color: gray;
+	text-decoration: none;
+}
+
+table.table{
+	width: 80%;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	margin: 0 auto;
+	clear: right;
+}
+
+table th{
+	font-weight: bold;
+	text-align: left;
+	text-indent: 0.5em;
+}
+
+table th:nth-child(1){
+	width: 20%;
+	border: solid 0.5px #d3d3d3;
+	border-left: none;
+	border-right: none;
+}
+
+table td:nth-child(2){
+	width: 80%;
+	border: solid 0.5px #d3d3d3;
+	border-left: none;
+	border-right: none;
+}
+
+table th:nth-of-type(5n+1){
+	width: 20%;
+	border-bottom: none;
+}
+
+table td:nth-of-type(5n+1){
+	width: 80%;
+	border-bottom: none;
+}
+
+table td{
+	text-indent: 0.3em;
+	padding: 8px;
+}
+
+
+table tr:nth-child(odd){
+	background-color: #fff;
+}
+
+input[type="text"]{
+	padding: 3px;
+	border: solid 1.2px gray;
+	font-size: 1.2em;
+}
+
+input.btn{
+	color: #fff;
+	background-color: transparent;
+	font-size: 0.8em;
+	padding: 0;
+}
+
+.btn-primary{
+	color: #fff;
+	text-decoration: none;
+	background-color: #337ab7;
+	border-radius: 5px;
+	margin: 10px 8px 0 0;
+	padding: 5px 10px;
+}
+
+input.btn-success{
+	background-color: #5cb85c;
+	border-radius: 5px;
+	margin: 15px 0 0 10%;
+	padding: 5px 10px;
+}
+
+.btn-success{
+	color: #fff;
+	background-color: #5cb85c;
+	position: relative;
+	top: 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin: 0;
+	padding: 5px 10px;
+}
+
+input.btn-warning{
+	background-color: #f0ad4e;
+	border-radius: 5px;
+	margin: 15px 0 0 10%;
+	padding: 5px 10px;
+}
+
+div.alert{
+	width: 80%;
+	border: solid 0.2px #ebccd1;
+	border-radius: 2.5px;
+	background-color: #f2dede;
+	margin: 10px auto;
+}
+
+div.alert-danger{
+	color: #a94442;
+	font-size: 0.8em;
+	padding: 12px 2.5px;
+}
+

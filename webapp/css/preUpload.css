@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+body {
+	font-family:  "メイリオ","游ゴシック", sans-serif;
+}
+
+div.navbar-header {
+	width: 20%;
+	text-align: center;
+	letter-spacing: 0.15em;
+	background-color: #000;
+	opacity: 0.9;
+	margin: 0 auto 30px auto;
+	padding: 15px 0;
+	float: left;
+}
+
+a.navbar-brand {
+	color: #c8fac8;
+	text-decoration: none;
+}
+
+div#navbar{
+	width: 80%;
+	list-style-type: none;
+	text-align: left;
+	background-color: #000;
+	opacity: 0.9;
+	margin: 0 auto 30px auto;
+	padding: 15px 0;
+	float: left;
+	clear: right;
+}
+
+ol{
+	margin :0;
+	padding: 0;
+}
+
+ol,li{
+	width: 30%;
+	display: inline;
+	margin-right: 1em;
+}
+
+ol.navbar-nav li a{
+	color: gray;
+	text-decoration: none;
+}
+
+.container:nth-child(18n+2){
+	width: 80%;
+	left: 10%;
+	right: 10%;
+	margin: 0 auto;
+}
+
+form{
+	margin: 0 auto;
+}
+
+input.btn-primary{
+	color: #fff;
+	background-color: #337ab7;
+	border-radius: 5px;
+	margin: 10px 8px 0 0;
+	padding: 5px 10px;
+	float: left;
+}
+
